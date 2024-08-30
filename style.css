@@ -1,0 +1,60 @@
+body {
+     color: white;
+     background-color: black;
+     margin: 0px;
+     font-family: "SUSE", sans-serif;
+     margin-bottom: 100px;
+}
+
+header {
+     border-bottom: solid 2px rgb(255, 0, 221);
+     padding: 20px;
+     font-size: 30px;
+     color: rgb(255, 0, 255);
+}
+
+.titulo {
+     background-color: rgb(34, 27, 129);
+     padding-bottom: 80px;
+     padding-top: 80px;
+     display: flex;
+     justify-content: center;
+}
+
+.titulo-texto {
+     margin: 2%
+}
+
+h1 {
+     font-size: 38px;
+}
+
+p {
+     font-size: 40px;
+}
+
+.categoria-musicas {
+     display: flex;
+     overflow-x: auto;
+     gap: 10px;
+}
+
+.categoria {
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-top: 50px;
+}
+
+.categoria-musicas img {
+     opacity: 0.4;
+     height: 250px;
+}
+
+.categoria-musicas img:hover {
+     opacity: 1.0;
+     border: 1px solid greenyellow;
+}
+
+.categoria h2 {
+     color: rgb(255, 0, 255);
+}
