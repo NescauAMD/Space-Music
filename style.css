@@ -58,3 +58,87 @@ p {
 .categoria h2 {
      color: rgb(255, 0, 255);
 }
+
+.funk-antigo {
+     display: flex;
+     overflow-x: auto;
+     gap: 10px;
+}
+
+.funks h3 {
+     color: rgb(255, 0, 255);
+}
+
+h3 {
+     font-size: 1.5em;
+}
+
+.funks {
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-top: 30px;
+}
+
+.funk-antigo img {
+     opacity: 0.4;
+     height: 250px;
+}
+
+.funk-antigo img:hover {
+     opacity: 1.0;
+     border: solid greenyellow;
+}
+
+.musica-eletro {
+     display: flex;
+     overflow-x: auto;
+     gap: 10px;
+}
+
+.eletro h4 {
+     color: rgb(255, 0, 255);
+     font-size: 1.5em;
+}
+
+.eletro {
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-top: 30px;
+}
+
+.musica-eletro img {
+     opacity: 0.4;
+     height: 250px;
+}
+
+.musica-eletro img:hover {
+     opacity: 1.0;
+     border: solid greenyellow;
+}
+
+.sofrencia {
+     display: flex;
+     overflow-x: auto;
+     gap: 10px;
+}
+
+.sofrer h5 {
+     color: rgb(255, 0, 255);
+     font-size: 1.5em;
+}
+
+.sofrencia {
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-top: 30px;
+}
+
+.sofrer img {
+     opacity: 0.4;
+     height: 250px;
+}
+
+.sofrer img:hover {
+     opacity: 1.0;
+     border: solid greenyellow;
+}
